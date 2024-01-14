@@ -2,7 +2,7 @@
 
 ## Curso intermedio
 
-El temario del curso será:
+El temario del curso:
 <br />
 - Arquitectura MVVM y clean code
 - Fragments
@@ -18,3 +18,4 @@ El temario del curso será:
 - UnitTest y UITest
 ---
 
+### Curso de AristiDevs  https://github.com/ArisGuimera/Android-Expert-Intermedio

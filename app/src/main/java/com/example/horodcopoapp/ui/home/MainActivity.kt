@@ -9,7 +9,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.horodcopoapp.R
 import com.example.horodcopoapp.databinding.ActivityMainBinding
 
-//1:19min
+//1:31min
 class MainActivity : AppCompatActivity() {
 
     private  lateinit var binding: ActivityMainBinding

@@ -36,3 +36,5 @@ class MainActivity : AppCompatActivity() {
         binding.btNavBar.setupWithNavController(navController)
     }
 }
+
+//

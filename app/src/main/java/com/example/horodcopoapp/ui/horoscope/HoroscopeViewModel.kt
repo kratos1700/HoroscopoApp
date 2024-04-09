@@ -7,4 +7,10 @@ import javax.inject.Inject
 @HiltViewModel
 class HoroscopeViewModel @Inject constructor(): ViewModel(){
 
+
+
+    fun getHoroscopes(){
+
+    }
+
 }

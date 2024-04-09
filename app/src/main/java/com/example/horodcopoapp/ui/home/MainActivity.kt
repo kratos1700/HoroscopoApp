@@ -8,8 +8,9 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.horodcopoapp.R
 import com.example.horodcopoapp.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-//1:31min
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private  lateinit var binding: ActivityMainBinding

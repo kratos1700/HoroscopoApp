@@ -1,6 +1,5 @@
 package com.example.horodcopoapp.data.providers
 
-import com.example.horodcopoapp.R
 import com.example.horodcopoapp.domain.model.HoroscopeInfo
 import com.example.horodcopoapp.domain.model.HoroscopeInfo.*
 import javax.inject.Inject
@@ -15,7 +14,7 @@ class HoroscopeProvider @Inject constructor() {
             Cancer,
             Leo,
             Virgo,
-            Libro,
+            Libra,
             Scorpio,
             Sagittarius,
             Pisces,

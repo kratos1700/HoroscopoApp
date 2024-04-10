@@ -12,7 +12,7 @@ sealed class HoroscopeInfo (
     object Cancer : HoroscopeInfo(R.drawable.cancer, R.string.cancer)
     object Leo : HoroscopeInfo(R.drawable.leo, R.string.leo)
     object Virgo : HoroscopeInfo(R.drawable.virgo, R.string.virgo)
-    object Libro : HoroscopeInfo(R.drawable.libra, R.string.libra)
+    object Libra : HoroscopeInfo(R.drawable.libra, R.string.libra)
     object Scorpio : HoroscopeInfo(R.drawable.escorpio, R.string.scorpio)
     object Sagittarius : HoroscopeInfo(R.drawable.sagitario, R.string.sagittarius)
     object Pisces : HoroscopeInfo(R.drawable.piscis, R.string.pisces)

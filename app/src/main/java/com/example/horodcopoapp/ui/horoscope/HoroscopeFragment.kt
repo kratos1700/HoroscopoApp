@@ -40,6 +40,7 @@ class HoroscopeFragment : Fragment() {
         initUiState()
     }
 
+
     private fun initRecyclerViewList() {
         _adapter = HoroscopeAdapter(onItemSelected = {
          val type =    when(it){
@@ -57,8 +58,9 @@ class HoroscopeFragment : Fragment() {
                 Virgo -> HoroscopeModel.Virgo
             }
 
+
             findNavController().navigate(
-                HoroscopeFragmentDirections.actionHoroscopeFragmentToHoroscopeDetailActivity()
+                HoroscopeFragmentDirections.actionHoroscopeFragmentToHoroscopeDetailActivity(type)
             )
         })
 
